@@ -47,8 +47,49 @@
 
 .ex-5-square:hover{
   scale: 2;
-  }
+}
 
 .ex-5-square:active{
 scale: 0.5;
 }
+
+/* ********************************  SESTO ****************************** */
+
+.ex-6-img:hover{
+  filter: grayscale(100%);
+}
+
+/* ******************************* SETTIMO ******************************** */
+
+.ex-7-img{
+  transition: all 2s;
+}
+
+.ex-7-img:hover{
+  filter: grayscale(100%) brightness(1.1);
+}
+
+/* ******************************* OTTAVO ********************************** */
+
+.ex-8-img{
+  transition: all 2s;
+}
+
+.ex-8-img:hover{
+  filter: grayscale(85%) brightness(1.2);
+  border-radius: 20px;
+}
+
+/* ****************************** NONO ************************************* */
+
+.ex-9-img{
+  transition: all 2s;
+}
+
+.ex-9-img:hover{
+  filter: grayscale(85%) brightness(1.2);
+  border-radius: 20px;
+  scale: 1.5;
+}
+
+/* ******************************* DECIMO ********************************* */
