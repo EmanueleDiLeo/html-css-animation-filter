@@ -176,6 +176,21 @@ scale: 0.5;
 
 /* **********************************  TREDICI ****************************/
 
+/*
+h=70px  = 12,96%
+b=200px = 37.04%
+p=540px
+h1=-15% 
+h2= 85%
+
+left=25% =1/4 = 9.26%
+First = 27.78%
+Second = 40.74%
+Third = 77.78%
+Fourth = 90.74%
+
+
+*/
 
 @keyframes by-byy-top {
   0%{
@@ -183,70 +198,50 @@ scale: 0.5;
     left: 10%;
   }
 
-  30%{
-    top: -10px;
-    left: 70%;
-    transform: rotate(0deg);
-    
-  }
-  31%{
+  27.78%{
     top:-10px;
     left:85%;
-    transform: rotate(90deg);
+    transform: rotate(0deg);
   }
-  33%{
-    top: 0px;
+  27.80%{
+    top: -10px;
     left: 85%;
     transform: rotate(90deg);
   }
-  35%{
-    top:10px;
-    left: 85%;
-    transform: rotate(90deg);
-  }
-  39%{
-    top:30px;
-    left: 85%;
-    transform: rotate(90deg);
-  }
-  41%{
+
+  40.74%{
     top: 60px;
     left: 85%;
     transform: rotate(90deg);
   }
-  42%{
+  40.80%{
     top: 60px;
-    left: 70%;
-    transform: rotate(180deg);
-  }
-  50%{
-    top:60px;
-    left: 60%;
+    left: 85%;
     transform: rotate(180deg);
   }
 
-  80%{
+  77.78%{
     top:60px;
-    left: -20%;
+    left: -15%;
     transform: rotate(180deg);
     
   }
 
-  81%{
-    top:50px;
-    left:-20%;
+  77.80%{
+    top:60px;
+    left:-15%;
     transform: rotate(270deg);
   }
 
-  94%{
+  90.74%{
     top:-10px;
-    left:-20%;
+    left:-15%;
     transform: rotate(270deg);
   }
 
-  95%{
+  90.80%{
     top:-10px;
-    left:-5%;
+    left:-15%;
     transform: rotate(360deg);
 
   }
@@ -259,12 +254,25 @@ scale: 0.5;
 
 }
 
-
 .ex-13-button:hover .ex-13-top-white{
   animation: by-byy-top 3s linear;
   animation-iteration-count: 1;
 }
 
+
+/* 
+h=70px  = 12,96%
+b=200px = 37.04%
+p=540px
+h1=-15% 
+h2= 85%
+
+right=45% =90 = 16,67%
+First= 20.37%
+Second=33.33%
+Third = 70.37%
+Fourth = 83.33%
+*/
 
 @keyframes by-byy-bottom {
   0%{
@@ -272,69 +280,50 @@ scale: 0.5;
     right: 20%;
   }
 
-  30%{
+  20.37%{
     bottom: -10px;
-    right: 70%;
+    right: 85%;
     transform: rotate(0deg);
   }
-  31%{
+  20.40%{
     bottom: -10px;
     right: 85%;
     transform: rotate(90deg);
   }
 
-  31%{
-    bottom: 0px;
-    right: 85%;
-    transform: rotate(90deg);
-  }
-
-  33%{
-    bottom: 10px;
-    right: 85%;
-    transform: rotate(90deg);
-  }
-
-  44%{
+  33.33%{
     bottom: 60px;
     right: 85%;
     transform: rotate(90deg);
   }
 
-  45%{
+  33.40%{
     bottom: 60px;
-    right: 75%;
+    right: 85%;
     transform: rotate(180deg);
   }
 
-  50%{
+  70.37%{
     bottom: 60px;
-    right: 65%;
+    right: -15%;
     transform: rotate(180deg);
   }
 
-
-  75%{
+  70.40%{
     bottom: 60px;
-    right: -20%;
-    transform: rotate(180deg);
-  }
-
-  76%{
-    bottom: 55px;
-    right: -20%;
+    right: -15%;
     transform: rotate(270deg);
   }
 
-  90%{
+  83.33%{
     bottom: -10px;
-    right: -20%;
+    right: -15%;
     transform: rotate(270deg);
   }
 
-  91%{
+  83.40%{
     bottom: -10px;
-    right: -10%;
+    right: -15%;
     transform: rotate(360deg);
   }
 
